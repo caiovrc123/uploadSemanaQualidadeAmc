@@ -129,7 +129,7 @@ const questions = [
       { text: 'Falta de credibilidade com nossos clientes', correct: false },
       { text: 'Processo se torna frágil', correct: false },
       { text: 'Diminuição no nível de Qualidade', correct: false },
-      { text: "Nenhuma das alternativas", correct: true }
+      { text: "Todas as alternativas", correct: true }
     ]
   },
   {
