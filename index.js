@@ -143,7 +143,7 @@ const questions = [
     question: 'Quais são as Boas Práticas, no ambiente fabril, que seguimos para garantir um produto de Qualidade?',
     answers: [
       { text: 'Lavar as mãos uma vez ao dia; Utilizar EPI´s como touca, protetor de barba, mangote/camisa de manga comprida', correct: false },
-      { text: 'Lavar as mãos sempre que as mesmas puderem contaminar o produto; Utilizar EPI´s como touca, protetor de barba, mangote/camisa de manga comprida', correct: true },
+      { text: 'Lavar as mãos sempre que as mesmas puderem contaminar o produto; Utilizar touca, protetor de barba, mangote/camisa de manga comprida', correct: true },
       { text: 'Utilizar apenas touca', correct: false },
       { text: 'Utilizar touca, protetor de barba e mangote/camisa de manga comprida', correct: false }
     ]
@@ -151,8 +151,8 @@ const questions = [
   {
     question: 'Se eu vejo uma pré-forma no chão, e coloco ela de volta na caixa, que tipo(s) de contaminação(ões) eu posso estar levando para nossos clientes?',
     answers: [
-      { text: 'Física, biológica e química', correct: false },
-      { text: 'Biológica e Química', correct: true },
+      { text: 'Física, biológica, química, cruzada e alergênico', correct: true },
+      { text: 'Biológica, química e física', correct: false },
       { text: 'Física', correct: false },
       { text: 'Nenhum tipo de contaminação', correct: false }
     ]
