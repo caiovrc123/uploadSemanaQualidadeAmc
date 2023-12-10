@@ -106,64 +106,64 @@ function finishGame() {
 
 const questions = [
   {
-    question: "Dentro de qual elemento HTML colocamos o JavaScript?",
+    question: "Quais são os valores da Amcor?",
     answers: [
-      { text: "<javascript>", correct: false },
-      { text: "<js>", correct: false },
-      { text: "<script>", correct: true },
-      { text: "<scripting>", correct: false }
+      { text: "Segurança, Integridade, Persuasão, Responsabilidade e Inovação", correct: false },
+      { text: "Colaboração, Integridade, Persuasão, Responsabilidade e Resultados Outperformance", correct: false },
+      { text: "Colaboração, Integridade, Liderança Operacional, Responsabilidade e Resultados Outperformance", correct: false },
+      { text: "Segurança, Integridade, Colaboração, Responsabilidade e Resultados Outperformance", correct: true }
     ]
   },
   {
-    question: "Onde é o lugar correto para inserir JavaScript?",
-    answers: [
-      { text: "Tanto no <head> quanto no <body> está correto", correct: true },
-      { text: "No <body>", correct: false },
-      { text: "No <head>", correct: false },
-      { text: "Em outro lugar", correct: false }
+    question: "Para atendermos determinados clientes, precisamos e seguimos quais diretrizes?",
+    answers: [  
+      { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: true },
+      { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: false },
+      { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: false },
+      { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: false }
     ]
   },
   {
-    question: 'Qual é a sintaxe correta para se referir a um script externo chamado "xxx.js"',
+    question: 'Quais os impactos, internamente e externamente, de não termos um sistema de rastreabilidade implementado e robusto?"',
     answers: [
-      { text: '<script src="xxx.js">', correct: true },
-      { text: '<script href="xxx.js">', correct: false },
-      { text: '<script name="xxx.js">', correct: false },
-      { text: "Nenhuma das alternativas", correct: false }
+      { text: 'Falta de credibilidade com nossos clientes', correct: false },
+      { text: 'Processo se torna frágil', correct: false },
+      { text: 'Diminuição no nível de Qualidade', correct: false },
+      { text: "Nenhuma das alternativas", correct: true }
     ]
   },
   {
-    question: 'O arquivo JavaScript externo deve conter a tag <script>',
+    question: 'É importante seguirmos as Boas Práticas de Fabricação para termos um produto acabado seguro e garantirmos a inocuidade do mesmo',
     answers: [
-      { text: "Verdadeiro", correct: false },
-      { text: "Falso", correct: true }
+      { text: "Verdadeiro", correct: true },
+      { text: "Falso", correct: false }
     ]
   },
   {
-    question: 'Como escrever "Hello World" numa caixa de alerta?',
+    question: 'Quais são as Boas Práticas, no ambiente fabril, que seguimos para garantir um produto de Qualidade?',
     answers: [
-      { text: 'msg("Hello World");', correct: false },
-      { text: 'alert("Hello World");', correct: true },
-      { text: 'msgBox("Hello World");', correct: false },
-      { text: 'alertBox("Hello World");', correct: false }
+      { text: 'Lavar as mãos uma vez ao dia; Utilizar EPI´s como touca, protetor de barba, mangote/camisa de manga comprida', correct: false },
+      { text: 'Lavar as mãos sempre que as mesmas puderem contaminar o produto; Utilizar EPI´s como touca, protetor de barba, mangote/camisa de manga comprida', correct: true },
+      { text: 'Utilizar apenas touca', correct: false },
+      { text: 'Utilizar touca, protetor de barba e mangote/camisa de manga comprida', correct: false }
     ]
   },
   {
-    question: 'Como podemos criar uma função no JavaScript?',
+    question: 'Se eu vejo uma pré-forma no chão, e coloco ela de volta na caixa, que tipo(s) de contaminação(ões) eu posso estar levando para nossos clientes?',
     answers: [
-      { text: 'function:myFunction()', correct: false },
-      { text: 'function myFunction()', correct: true },
-      { text: 'function = myFunction()', correct: false },
-      { text: 'Nenhum desses códigos criaria uma função', correct: false }
+      { text: 'Física, biológica e química', correct: false },
+      { text: 'Biológica e Química', correct: true },
+      { text: 'Física', correct: false },
+      { text: 'Nenhum tipo de contaminação', correct: false }
     ]
   },
   {
-    question: 'Como podemos chamar uma função chamada "minhaFuncao"?',
+    question: 'Imagine que você precise descartar os seguintes tipos de resíduos: Plástico, Papel, Metal, Vidro e Não recicláveis. Qual seria a ordem correta das cores correspondentes?',
     answers: [
-      { text: 'call minhaFuncao()', correct: false },
-      { text: 'call function minhaFuncao()', correct: false },
+      { text: 'Preto, Vermelho, Azul, Verde e Cinza', correct: false },
+      { text: 'Azul, Amarelo, Branco, Verde e Laranja', correct: false },
       { text: 'Nenhum desses códigos chamaria essa função', correct: false },
-      { text: 'minhaFuncao()', correct: true },
+      { text: 'Vermelho, Azul, Amarelo, Verde e Cinza', correct: true },
     ]
   },
 ]
