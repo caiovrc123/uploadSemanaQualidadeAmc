@@ -76,7 +76,7 @@ function finishGame() {
 
   switch (true) {
     case (performance >= 90):
-      message = "Excelente :)"
+      message = "Parabéns, vocês são verdadeiros guardiões dos alimentos! :)"
       break
     case (performance >= 70):
       message = "Muito bom :)"
@@ -118,9 +118,9 @@ const questions = [
     question: "Para atendermos determinados clientes, precisamos e seguimos quais diretrizes?",
     answers: [  
       { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: true },
-      { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: false },
-      { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: false },
-      { text: "5S, Princípios de GMP/BPF, ISO 9001, ISO 22000, FSSC 22000", correct: false }
+      { text: "5S, Princípios de GMP/BPF, ISO 25001, ISO 22000, FSSC 22000", correct: false },
+      { text: "5S, Princípios de GMP/BPF, ISO 9000, ISO 23000, FSSC 22000", correct: false },
+      { text: "5S, Princípios de Organização, ISO 9001, NR 32, FSSC 22000", correct: false }
     ]
   },
   {
