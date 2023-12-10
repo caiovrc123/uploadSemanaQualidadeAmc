@@ -162,7 +162,7 @@ const questions = [
     answers: [
       { text: 'Preto, Vermelho, Azul, Verde e Cinza', correct: false },
       { text: 'Azul, Amarelo, Branco, Verde e Laranja', correct: false },
-      { text: 'Nenhum desses códigos chamaria essa função', correct: false },
+      { text: 'Azul, Amarelo, Branco, Laranja e Verde', correct: false },
       { text: 'Vermelho, Azul, Amarelo, Verde e Cinza', correct: true },
     ]
   },
